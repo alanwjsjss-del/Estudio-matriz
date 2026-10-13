@@ -1,0 +1,17 @@
+COMO GERAR O APK (sem programar, ~10 minutos, de graça)
+
+1. Crie uma conta em github.com (se ainda não tiver).
+2. Toque em "+" > "New repository". Nome: estudio-matiz. Deixe "Public" ou "Private" (tanto faz). Crie.
+3. Na página do repositório: "uploading an existing file" (ou Add file > Upload files).
+   Envie TODO o conteúdo desta pasta (incluindo a pasta escondida .github).
+   Dica: no computador, abra a pasta, selecione tudo (Ctrl+A) e arraste para a página.
+   Se a pasta .github não subir: Add file > Create new file, nome ".github/workflows/apk.yml"
+   e cole o conteúdo do arquivo apk.yml que está aqui dentro.
+4. Clique em "Commit changes". Vá na aba "Actions": a compilação começa sozinha (leva uns 3-5 minutos).
+5. Quando ficar verde: no lado direito do repositório, em "Releases", abra a versão mais recente
+   e baixe "app-debug.apk". (Também fica em Actions > a execução > Artifacts.)
+6. Abra o APK no celular Android e instale (autorize "instalar apps desconhecidos" quando pedir).
+
+Se der erro (bolinha vermelha em Actions), abra a execução, copie a mensagem do erro e me mande.
+
+O app salva as fotos em Galeria > Pictures/EstudioMatiz e vídeos em Movies/EstudioMatiz. Android 10 ou mais novo.
